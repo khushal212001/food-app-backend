@@ -4,7 +4,8 @@
   "main": "./src/index.ts",
   "scripts": {
     "dev": "nodemon",
-    "build":"npm install & npx tsc"
+    "build":"npm install & npx tsc",
+    "start" : "node dist/index.js"
   },
   "keywords": [],
   "author": "",
