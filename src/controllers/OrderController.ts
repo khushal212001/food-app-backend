@@ -1,6 +1,6 @@
 import Stripe from "stripe";
 import { Request, Response } from "express";
-import Restaurant, { MenuItemType } from "../models/restraunt";
+import Restaurant, { MenuItemType } from "../models/restaurant";
 import Order from "../models/order";
 
 const STRIPE = new Stripe(process.env.STRIPE_API_KEY as string);
